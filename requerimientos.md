@@ -1,4 +1,4 @@
-<!-- Entidades principales
+Entidades principales
 
 De la Clínica "Salud Integral", se tiene las siguientes entidades principales:
 
@@ -65,4 +65,3 @@ creacion DateTime @default(now())
 paciente Paciente @relation(fields: [pacienteId], references: [id])
 medico Medico @relation(fields: [medicoId], references: [id])
 }
- -->
